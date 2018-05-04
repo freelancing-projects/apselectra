@@ -185,9 +185,11 @@ a.more:hover {
 
 #tooplate_menu li:hover ul {
 	display: block;
-	background: #d7eacb;
+	background: #def1d3;
 	height: auto;
 	width: 12em;
+	margin: 35px 0px 0px 0px;
+	border-radius: 15px;
 }
 
 #tooplate_menu li ul li {
