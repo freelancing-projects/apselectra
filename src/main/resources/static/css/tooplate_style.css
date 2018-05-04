@@ -151,7 +151,50 @@ a.more:hover {
 	outline: none;
 }
 
-#tooplate_menu ul li a:hover, #tooplate_menu ul li .current { color: #000; background: url(../images/tooplate_menu_hover.png) bottom center no-repeat }
+#tooplate_menu ul li a:hover, #tooplate_menu ul li .current {
+	color: #000; 
+	webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	display: block;
+	border: 1px solid #7bb762;
+	-moz-box-shadow: inset 0 5px 10px #7bb762;
+	-webkit-box-shadow: inset 0 5px 10px #7bb762;
+	box-shadow: inset 0 5px 10px #7bb762;
+}
+
+#tooplate_menu ul {
+	padding: 1;
+	margin: 1;
+	list-style: none;
+}
+
+#tooplate_menu li {
+	float: left;
+	position: relative;
+	padding-right: 100;
+	display: block;
+}
+
+#tooplate_menu li ul {
+	display: none;
+	position: absolute;
+}
+
+#tooplate_menu li:hover ul {
+	display: block;
+	background: #d7eacb;
+	height: auto;
+	width: 12em;
+}
+
+#tooplate_menu li ul li {
+	clear: both;
+	border-style: none;
+}
+
 
 /* end of menu */
 
