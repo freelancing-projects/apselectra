@@ -22,7 +22,7 @@ function clearText(field)
 
 <script type="text/javascript">
 $(window).load(function() {
-	$('#slider').nivoSlider({
+	$('#slider-main').nivoSlider({
 		effect:'random',
 		slices:15,
 		animSpeed:500,
@@ -41,6 +41,14 @@ $(window).load(function() {
 	});
 });
 </script>
+<style>
+.nivoSlider {
+	position:relative;
+	width: 900px !important;
+	height: 400px !important;
+}
+
+</style>
 <!--   Free Website Template by t o o p l a t e . c o m   -->
 </head>
 <body>
@@ -66,10 +74,25 @@ $(window).load(function() {
 				</li>
 				<li><a href="news.html" style="width: 127px">LED Products</a>
 				<ul>
-					<li><a href="#" style="width: 150px">Indoor Lighting</a></li>
+					<li><a href="#" style="width: 150px">Indoor Lighting</a>
+						<ul style="margin: 0px auto 0 154px;">
+							<li><a href="led-blub.html" style="width: 150px" >LED Blub/Lamps</a></li>
+							<li><a href="led-industrial-blub.html" style="width: 150px" >LED Industrial Blub Light</a></li>
+							<li><a href="led-slim-panel.html" style="width: 150px" >LED Slim Panel</a></li>
+							<li><a href="led-surface-panel.html" style="width: 150px" >LED Surface Panel</a></li>
+							<li><a href="led-panel-light.html" style="width: 150px" >LED Panel Light</a></li>
+							<li><a href="led-flood-light.html" style="width: 150px" >LED Flood Light</a></li>
+							<li><a href="led-hibay-light.html" style="width: 150px" >LED Hibay Light</a></li>
+							<li><a href="led-tubelight-pvc-batton.html" style="width: 150px" >LED Tublight (PVC Batton)</a></li>
+							<li><a href="led-tubelight-retrofit.html" style="width: 150px" >LED Tublight (Retrofit)</a></li>
+							<li><a href="led-cob-light.html" style="width: 150px" >LED COB Light</a></li>
+							<li><a href="led-street-lights.html" style="width: 150px" >LED Street Light</a></li>
+						</ul>
+					
+					</li>
 					<li><a href="#" style="width: 150px">Outdoor Lighting</a>
 						<ul style="margin: 0px auto 0 154px;">
-							<li><a href="led-street-lights.html" style="width: 150px" >LED Street Light</a></li>
+							<!-- <li><a href="led-street-lights.html" style="width: 150px" >LED Street Light</a></li> -->
 							
 						</ul>
 					</li>
@@ -89,20 +112,13 @@ $(window).load(function() {
 			<div class="cleaner"></div>
 		</div> <!-- end of tooplate_menu -->
 		
-		<div id="tooplate_middle">
+		<div id="tooplate_middle" style="width:900px;height:400px;background:center" >
 			
-			<div id="slider">
-				<a href="#"><img src="images/slideshow/01.jpg" alt="Image 01" title="Lorem ipsum dolor sit amet." /></a>
-				<a href="#"><img src="images/slideshow/02.jpg" alt="Image 02" title="Nullam ante leo, consectetur eget." /></a>
-				<a href="#"><img src="images/slideshow/03.jpg" alt="Image 03" title="Suspendisse sit amet enim elit." /></a>
-				<a href="#"><img src="images/slideshow/04.jpg" alt="Image 04" title="Nulla faucibus luctus quam eget placerat." /></a>
-				<a href="#"><img src="images/slideshow/05.jpg" alt="Image 05" title="Phasellus aliquet viverra posuere. " /></a>
-			</div>
-		
-			<div id="intro">
-				<h2>Cum sociis natoque et </h2>
-				<p>Donec dignissim, mi eu imperdiet ultrices, quam nisi dignissim tellus, viverra sodales erat orci nec magna. Proin dolor mi, ultrices sit amet iaculis eu.</p>
-				<a class="learn_more" href="#">Learn more</a>
+			<div id="slider-main">
+				<a href="#"><img src="images/slideshow/1.jpg" alt="Image 01" title="Lorem ipsum dolor sit amet." /></a>
+				<a href="#"><img src="images/slideshow/2.jpg" alt="Image 02" title="Nullam ante leo, consectetur eget." /></a>
+				<a href="#"><img src="images/slideshow/3.jpg" alt="Image 03" title="Suspendisse sit amet enim elit." /></a>
+				<a href="#"><img src="images/slideshow/4.jpg" alt="Image 04" title="Nulla faucibus luctus quam eget placerat." /></a>
 			</div>
 			
 		</div>

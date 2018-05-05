@@ -359,6 +359,13 @@ a.more:hover {
 	overflow: hidden;
 	border: 1px solid #fff;
 }
+#slider-main {
+	float: left;
+	width: 900px;
+	height: 400px;
+	overflow: hidden;
+	border: 1px solid #fff;
+}
 
 #tooplate_middle_subpage {
 	clear: both;
@@ -404,6 +411,10 @@ span.tm_top {
 
 .col_w580 {
 	width: 580px
+}
+
+.col_w890 {
+	width: 890px
 }
 
 .col_w420 {
@@ -735,4 +746,9 @@ span.tm_top {
 	color: #4d9317;
 	text-shadow: 0 1px 0 #fff;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.7);
+}
+.left_div{
+    width: 430px;
+    height: 370px;
+    float: left;
 }

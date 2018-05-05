@@ -92,9 +92,9 @@
 						$('<div class="nivo-slice"></div>').css({ left:(sliceWidth*i)+'px', width:(slider.width()-(sliceWidth*i))+'px' })
 					);
 				} else {
-					slider.append(
+					/*slider.append(
 						$('<div class="nivo-slice"></div>').css({ left:(sliceWidth*i)+'px', width:sliceWidth+'px' })
-					);
+					);*/
 				}
 			}
 			
