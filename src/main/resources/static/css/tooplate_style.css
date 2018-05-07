@@ -227,19 +227,11 @@ a.more:hover {
 	background: url(../images/tooplate_menu.png) no-repeat
 }
 
-#tooplate_menu ul {
-	margin: 0;
-	padding: 10px 0;
+#tooplate_menu ul{
 	list-style: none;
 }
-
+ 
 #tooplate_menu ul li {
-	padding: 0;
-	margin: 0;
-	display: inline;
-}
-
-#tooplate_menu ul li a {
 	float: left;
 	display: block;
 	width: 87px;
@@ -253,9 +245,15 @@ a.more:hover {
 	font-weight: 700;
 	letter-spacing: 1px;
 	outline: none;
+	position: relative;
+	
+}
+#tooplate_menu ul ul li {
+border: 1px solid white;
+border-radius: 5px;
 }
 
-#tooplate_menu ul li a:hover, #tooplate_menu ul li .current {
+#tooplate_menu ul li:hover, #tooplate_menu ul li .current {
 	color: #000;
 	webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -267,42 +265,33 @@ a.more:hover {
 	-moz-box-shadow: inset 0 5px 10px #7bb762;
 	-webkit-box-shadow: inset 0 5px 10px #7bb762;
 	box-shadow: inset 0 5px 10px #7bb762;
+	z-index: 1000;
 }
-
-#tooplate_menu ul {
-	padding: 1;
-	margin: 1;
-	list-style: none;
+*{
+	margin: 0px;
+	padding: 0px;
 }
-
-#tooplate_menu li {
-	float: left;
-	position: relative;
-	padding-right: 100;
-	display: block;
-}
-
-#tooplate_menu li ul {
+#tooplate_menu ul ul {
 	display: none;
-	position: absolute;
 }
-
-#tooplate_menu li:hover ul {
+#tooplate_menu ul li:hover > ul{
 	display: block;
 	background: #def1d3;
 	height: auto;
-	width: 12em;
-	margin: 32px 0px 0px 0px;
-	border-radius: 15px;
+	width: auto;
 	z-index: 1000;
+	border-radius: 5px;
+	border: 1px solid #7bb762;
 }
-
-#tooplate_menu li ul li {
-	clear: both;
-	border-style: none;
+#tooplate_menu ul ul ul{
+	margin-left: 149px;
+	top: 0px;
+	position: absolute;
 }
-
-
+a:hover {
+    text-decoration: none;
+}
+ 
 /* end of menu */
 
 /* slider */
