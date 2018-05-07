@@ -182,16 +182,12 @@
 							</div>
 						</div>
 					</div>
-						
-						
 
-					
 					<div class="cleaner"></div>
 					<div class="tabbable tabs_style4">
 					<ul class="nav fixclear">
-						<li class="active"><a href="#shop-tab1" data-toggle="tab">Specifications</a></li>
-						<li><a href="#shop-tab2" data-toggle="tab">PDF Download</a></li>
-
+						<li class="active" id="spec-li"><a href="#" onclick="switchTab(this)"  data-toggle="tab" target="shop-tab1">Specifications</a></li>
+						<li id="pdf-li"><a href="#" onclick="switchTab(this)"  data-toggle="tab" target="shop-tab2">Pdf Download</a></li>
 					</ul>
 
 					<div class="row">
@@ -265,9 +261,30 @@
 										<br/><strong>Features: </strong> * Elegent Look * Lower Consumption &amp; Energy Saving * Replacement For CFL Lamp * OMNI directional illumination
 									</p>
 								</div>
+								
+								<div class="tab-pane" id="shop-tab2">
+									<a href="/download/brochure-drona-led-lithium.pdf" download="drona-brochure">Pdf Download</a>
+								</div>
 							</div>
 						</div>
 					</div>
+					
+					<script>
+					function switchTab(type){
+						if($(type).html() == 'Specifications'){
+							$("#pdf-li").removeAttr("class");
+							$("#spec-li").attr("class","active");
+							$("#shop-tab2").css("display", "none");
+							$("#shop-tab1").css("display", "block");
+						}else{
+							$("#spec-li").removeAttr("class");
+							$("#pdf-li").attr("class","active");
+							$("#shop-tab1").css("display", "none");
+							$("#shop-tab2").css("display", "block");
+						}
+					}
+					
+					</script>
 				</div>
 
 				</div>
