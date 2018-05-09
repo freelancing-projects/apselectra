@@ -3,229 +3,428 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Eco Green Theme - Free Website Template</title>
-<meta name="keywords" content="eco green, theme, free templates, website templates, CSS, HTML" />
-<meta name="description" content="Eco Green Theme is a free website template provided by tooplate.com" />
+<meta name="keywords"
+	content="eco green, theme, free templates, website templates, CSS, HTML" />
+<meta name="description"
+	content="Eco Green Theme is a free website template provided by tooplate.com" />
 <link href="css/tooplate_style.css" rel="stylesheet" type="text/css" />
 
 
 <script language="javascript" type="text/javascript">
-function clearText(field)
-{
-    if (field.defaultValue == field.value) field.value = '';
-    else if (field.value == '') field.value = field.defaultValue;
-}
+	function clearText(field) {
+		if (field.defaultValue == field.value)
+			field.value = '';
+		else if (field.value == '')
+			field.value = field.defaultValue;
+	}
 </script>
 
-<link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+<link rel="stylesheet" href="css/nivo-slider.css" type="text/css"
+	media="screen" />
+<script
+	src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"
+	type="text/javascript"></script>
 <script src="js/jquery.nivo.slider.js" type="text/javascript"></script>
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
 <script type="text/javascript">
-$(window).load(function() {
-	$('#slider-main').nivoSlider({
-		effect: 'sliceDown',                 // Specify sets like: 'fold,fade,sliceDown' 
-	    slices: 1,                       // For slice animations 
-	    boxCols: 8,                       // For box animations 
-	    boxRows: 4,                       // For box animations 
-	    animSpeed: 500,                   // Slide transition speed 
-	    pauseTime: 3000,                  // How long each slide will show 
-	    startSlide: 0,                    // Set starting Slide (0 index) 
-	    directionNav: false,               // Next  Prev navigation 
-	    controlNav: false,                 // 1,2,3... navigation 
-	    controlNavThumbs: false,          // Use thumbnails for Control Nav 
-	    pauseOnHover: true,               // Stop animation while hovering 
-	    manualAdvance: false,             // Force manual transitions 
-	    prevText: 'Prev',                 // Prev directionNav text 
-	    nextText: 'Next',                 // Next directionNav text 
-	    randomStart: false,               // Start on a random slide 
-	    beforeChange: function(){},       // Triggers before a slide transition 
-	    afterChange: function(){},        // Triggers after a slide transition 
-	    slideshowEnd: function(){},       // Triggers after all slides have been shown 
-	    lastSlide: function(){},          // Triggers when last slide is shown 
-	    afterLoad: function(){}           // Triggers when slider has loaded 
+	$(window).load(function() {
+		$('#slider-main').nivoSlider({
+			effect : 'sliceDown', // Specify sets like: 'fold,fade,sliceDown' 
+			slices : 1, // For slice animations 
+			boxCols : 8, // For box animations 
+			boxRows : 4, // For box animations 
+			animSpeed : 500, // Slide transition speed 
+			pauseTime : 3000, // How long each slide will show 
+			startSlide : 0, // Set starting Slide (0 index) 
+			directionNav : false, // Next  Prev navigation 
+			controlNav : false, // 1,2,3... navigation 
+			controlNavThumbs : false, // Use thumbnails for Control Nav 
+			pauseOnHover : true, // Stop animation while hovering 
+			manualAdvance : false, // Force manual transitions 
+			prevText : 'Prev', // Prev directionNav text 
+			nextText : 'Next', // Next directionNav text 
+			randomStart : false, // Start on a random slide 
+			beforeChange : function() {
+			}, // Triggers before a slide transition 
+			afterChange : function() {
+			}, // Triggers after a slide transition 
+			slideshowEnd : function() {
+			}, // Triggers after all slides have been shown 
+			lastSlide : function() {
+			}, // Triggers when last slide is shown 
+			afterLoad : function() {
+			} // Triggers when slider has loaded 
+		});
 	});
-});
 </script>
 <style>
 .nivoSlider {
-	position:relative;
+	position: relative;
 	width: 900px !important;
 	height: 400px !important;
 }
-
 </style>
 <!--   Free Website Template by t o o p l a t e . c o m   -->
 </head>
 <body>
-<div id="tooplate_body_wrapper">
-	<div id="tooplate_wrapper">
-		<div id="tooplate_header">
-			
-			<div id="site_title"><h1><a rel="nofollow" href="http://www.tooplate.com">Free Website Templates</a></h1></div>
-			
-		    <div id="twitter"><a href="#"></a></div>
-			
-			<div class="cleaner"></div>
-		</div>
-		
-		<div id="tooplate_menu">
-			<ul style="padding-top: 10px;">
-				<li><a href="index.html" >Home</a></li>
-				<li style="width:150px;"><a href="gallery.html" >Company Overview</a>
-					<ul style="background: #def1d3; height: 62px;  margin-top: 6px;">
-						<li style="width:146px;"><a href="#" >About Us</a></li>
-						<li style="width:146px;"><a href="#" >Vision And Mission</a></li>
-					</ul>
-				</li>
-				<li style="width:150px;"><a href="news.html" >LED Products</a>
-					<ul style="background: #def1d3; height: 62px;  margin-top: 6px;">
-						<li style="width:146px;"><a href="#" >Indoor Lighting</a>
-							<ul>
-								<li style="width:200px;"><a href="led-blub.html"  >LED Blub/Lamps</a></li>
-								<li style="width:200px;"><a href="led-industrial-blub.html"  >LED Industrial Blub</a></li>
-								<li style="width:200px;"><a href="led-slim-panel.html"  >LED Slim Panel</a></li>
-								<li style="width:200px;"><a href="led-surface-panel.html"  >LED Surface Panel</a></li>
-								<li style="width:200px;"><a href="led-panel-light.html"  >LED Panel Light</a></li>
-								<li style="width:200px;"><a href="led-flood-light.html"  >LED Flood Light</a></li>
-								<li style="width:200px;"><a href="led-hibay-light.html"  >LED Hibay Light</a></li>
-								<li style="width:200px;"><a href="led-tubelight-pvc-batton.html"  >LED Tublight (PVC Batton)</a></li>
-								<li style="width:200px;"><a href="led-tubelight-retrofit.html"  >LED Tublight (Retrofit)</a></li>
-								<li style="width:200px;"><a href="led-cob-light.html"  >LED COB Light</a></li>
-								<li style="width:200px;"><a href="led-concealed-light.html"  >LED Concealed Light</a></li>
-							</ul>
-						</li>
-						<li style="width:150px;"><a href="#"> Outdoor Lighting</a>
-							<ul>
-								<li style="width:150px;"><a href="led-street-lights.html"  >LED Street Light</a></li>
-							
-							</ul>
-						</li>
-					</ul>
-				</li>
-				<li style="width:150px;"><a href="#"> Solar Products</a>
-				<ul style="background: #def1d3; height: 93px;  margin-top: 6px;">
-					<li style="width:146px;"><a href="#" >Solar Plant</a></li>
-					<li style="width:146px;"><a href="#" >Solar Street Light</a>
-						<ul>
-								<li style="width:200px;"><a href="lead-acid-solar-street-light.html"  >LEAD Acid Solar Street light</a></li>
-								<li style="width:200px;"><a href="lithium-battery-solar-street-light.html" >Lithium Battery Solar Street Light</a></li>
-						</ul>		
-					</li>
-					<li style="width:146px;"><a href="#" >Water Pump</a></li>
+	<div id="tooplate_body_wrapper">
+		<div id="tooplate_wrapper">
+			<div id="tooplate_header">
+
+				<div id="site_title">
+					<h1>
+						<a rel="nofollow" href="http://www.tooplate.com">Free Website
+							Templates</a>
+					</h1>
+				</div>
+
+				<div id="twitter">
+					<a href="#"></a>
+				</div>
+
+				<div class="cleaner"></div>
+			</div>
+
+			<div id="tooplate_menu">
+				<ul style="padding-top: 10px;">
+					<li><a href="index.html">Home</a></li>
+					<li style="width: 150px;"><a href="gallery.html">Company
+							Overview</a>
+						<ul style="background: #def1d3; height: 62px; margin-top: 6px;">
+							<li style="width: 146px;"><a href="#">About Us</a></li>
+							<li style="width: 146px;"><a href="#">Vision And
+									Mission</a></li>
+						</ul></li>
+					<li style="width: 150px;"><a href="news.html">LED
+							Products</a>
+						<ul style="background: #def1d3; height: 62px; margin-top: 6px;">
+							<li style="width: 146px;"><a href="#">Indoor Lighting</a>
+								<ul>
+									<li style="width: 200px;"><a href="led-blub.html">LED
+											Blub/Lamps</a></li>
+									<li style="width: 200px;"><a
+										href="led-industrial-blub.html">LED Industrial Blub</a></li>
+									<li style="width: 200px;"><a href="led-slim-panel.html">LED
+											Slim Panel</a></li>
+									<li style="width: 200px;"><a href="led-surface-panel.html">LED
+											Surface Panel</a></li>
+									<li style="width: 200px;"><a href="led-panel-light.html">LED
+											Panel Light</a></li>
+									<li style="width: 200px;"><a href="led-flood-light.html">LED
+											Flood Light</a></li>
+									<li style="width: 200px;"><a href="led-hibay-light.html">LED
+											Hibay Light</a></li>
+									<li style="width: 200px;"><a
+										href="led-tubelight-pvc-batton.html">LED Tublight (PVC
+											Batton)</a></li>
+									<li style="width: 200px;"><a
+										href="led-tubelight-retrofit.html">LED Tublight
+											(Retrofit)</a></li>
+									<li style="width: 200px;"><a href="led-cob-light.html">LED
+											COB Light</a></li>
+									<li style="width: 200px;"><a
+										href="led-concealed-light.html">LED Concealed Light</a></li>
+								</ul></li>
+							<li style="width: 150px;"><a href="#"> Outdoor Lighting</a>
+								<ul>
+									<li style="width: 150px;"><a href="led-street-lights.html">LED
+											Street Light</a></li>
+
+								</ul></li>
+						</ul></li>
+					<li style="width: 150px;"><a href="#"> Solar Products</a>
+						<ul style="background: #def1d3; height: 93px; margin-top: 6px;">
+							<li style="width: 146px;"><a href="#">Solar Plant</a></li>
+							<li style="width: 146px;"><a href="#">Solar Street
+									Light</a>
+								<ul>
+									<li style="width: 200px;"><a
+										href="lead-acid-solar-street-light.html">LEAD Acid Solar
+											Street light</a></li>
+									<li style="width: 200px;"><a
+										href="lithium-battery-solar-street-light.html">Lithium
+											Battery Solar Street Light</a></li>
+								</ul></li>
+							<li style="width: 146px;"><a href="#">Water Pump</a></li>
+						</ul></li>
+					<li style="width: 150px;"><a href="contact.html"
+						style="width: 172px">Services And Support</a></li>
+					<li><a href="contact.html">Gallery</a></li>
+					<li><a href="contact.html">Contact</a></li>
 				</ul>
-				</li>
-				<li style="width:150px;"><a href="contact.html" style="width: 172px">Services And Support</a></li>
-				<li><a href="contact.html">Gallery</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>   	
-			<div class="cleaner"></div>
-		</div> <!-- end of tooplate_menu -->
-		
-		<div id="tooplate_middle" style="width:900px;height:400px;background:center" >
-			
-			<div id="slider-main">
-				<a href="#"><img src="images/slideshow/1.jpg" alt="Image 01" title="Lorem ipsum dolor sit amet." /></a>
-				<a href="#"><img src="images/slideshow/2.jpg" alt="Image 02" title="Nullam ante leo, consectetur eget." /></a>
-				<a href="#"><img src="images/slideshow/3.jpg" alt="Image 03" title="Suspendisse sit amet enim elit." /></a>
-				<a href="#"><img src="images/slideshow/4.jpg" alt="Image 04" title="Nulla faucibus luctus quam eget placerat." /></a>
+				<div class="cleaner"></div>
 			</div>
-			
-		</div>
-	
-		<div id="tooplate_main"><span class="tm_top"></span>
-		
-			<div class="testimonial"><span class="close"></span>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas rutrum lacinia felis et aliquet. Ut nibh mauris, accumsan at rutrum molestie, mollis quis neque. Mauris feugiat congue leo sed egestas.</p>
-				<p class="clientname">Catherine - <span><a href="#">Web Designer</a></span></p>
+			<!-- end of tooplate_menu -->
+
+			<div id="tooplate_middle"
+				style="width: 900px; height: 400px; background: center">
+
+				<div id="slider-main">
+					<a href="#"><img src="images/slideshow/1.jpg" alt="Image 01"
+						title="Lorem ipsum dolor sit amet." /></a> <a href="#"><img
+						src="images/slideshow/2.jpg" alt="Image 02"
+						title="Nullam ante leo, consectetur eget." /></a> <a href="#"><img
+						src="images/slideshow/3.jpg" alt="Image 03"
+						title="Suspendisse sit amet enim elit." /></a> <a href="#"><img
+						src="images/slideshow/4.jpg" alt="Image 04"
+						title="Nulla faucibus luctus quam eget placerat." /></a>
+				</div>
+
 			</div>
-		
-			<div class="col_w900">
-				<div class="col_w420 float_l">
-					<h2>Latest Updates</h2>
-					<div class="lbe_box">
-						<div class="lbe_date">
-							July 28, 2048
-							<span>by Marry</span>
+
+			<div id="tooplate_main">
+
+
+				<div class="testimonial">
+					 
+					<div id="DIV_1">
+						<div id="DIV_2">
+							<div id="DIV_3">
+								<div id="DIV_4">
+									<div id="DIV_5">
+										<div id="DIV_6">
+											<div id="DIV_7">
+												<div id="DIV_8">
+													<div id="DIV_9">
+														<div id="DIV_10">
+															<i class="fa fa-flag" style="padding:16px 0 0 0;"></i>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div id="DIV_12">
+												<h3 id="H3_13">13 YEARS</h3>
+											</div>
+											<!-- header -->
+
+											<div id="DIV_14">
+												<span id="SPAN_15">Solar Lighting International, Inc.
+													has been producing quality solar lighting systems since
+													2004.</span>
+											</div>
+											<!-- description -->
+
+										</div>
+										<!-- aio-icon-box -->
+
+									</div>
+									<!-- aio-icon-component -->
+
+								</div>
+							</div>
 						</div>
-						<div class="lbe_content">
-							<h3><a href="#">Etiam a Dui et Eros Imperdiet Rhoncus</a></h3>
-							<p>Nullam sagittis nisi vitae lacus dignissim ac cursus sapien pellentesque. Sed facilisis enim vitae lorem euismod vel tristique massa volutpat.</p>
+						<div id="DIV_16">
+							<div id="DIV_17">
+								<div id="DIV_18">
+									<div id="DIV_19">
+										<div id="DIV_20">
+											<div id="DIV_21">
+												<div id="DIV_22">
+													<div id="DIV_23">
+														<div id="DIV_24">
+															<i class="fa fa-users" style="padding:16px 0 0 0;"></i>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div id="DIV_26">
+												<h3 id="H3_27">INDUSTRY EXPERTS</h3>
+											</div>
+											<!-- header -->
+
+											<div id="DIV_28">Our team of solar experts have over 40
+												years combined experience.</div>
+											<!-- description -->
+
+										</div>
+										<!-- aio-icon-box -->
+
+									</div>
+									<!-- aio-icon-component -->
+
+								</div>
+							</div>
 						</div>
-						<div class="cleaner"></div>
+						<div id="DIV_29">
+							<div id="DIV_30">
+								<div id="DIV_31">
+									<div id="DIV_32">
+										<div id="DIV_33">
+											<div id="DIV_34">
+												<div id="DIV_35">
+													<div id="DIV_36">
+														<div id="DIV_37">
+															<i class="fa fa-clock-o" style="padding:16px 0 0 0;"></i>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div id="DIV_39">
+												<h3 id="H3_40">QUALITY ENGINEERING</h3>
+											</div>
+											<!-- header -->
+
+											<div id="DIV_41">
+												<span id="SPAN_42">Our products are designed and
+													engineered in the United States and are a symbol of high
+													quality solar lighting solutions.</span>
+											</div>
+											<!-- description -->
+
+										</div>
+										<!-- aio-icon-box -->
+
+									</div>
+									<!-- aio-icon-component -->
+
+								</div>
+							</div>
+						</div>
+						 
+					</div>
+
+				</div>
+					 
+					<link rel="stylesheet" href="css/ab-com.css" type="text/css"
+						media="screen" />
+
+				<div id="services_DIV_1">
+					<div id="services_DIV_2">
+						<h2 id="services_H2_3">Products and Services We Provide</h2>
+					</div>
+					<div id="services_DIV_4">
+						<span id="services_SPAN_5"></span>
 					</div>
 					
-					<div class="lbe_box">
-						<div class="lbe_date">
-							July 20, 2048
-							<span>by Clinton</span>
-						</div>
-						<div class="lbe_content">
-							<h3><a href="#">Praesent vehicula orci eu turpis molestie</a></h3>
-							<p>Phasellus blandit auctor massa dapibus feugiat. Proin pretium aliquam elit ac euismod. Nunc pulvinar dictum risus, vitae ornare est eget.</p>
-						</div>
-						<div class="cleaner"></div>
+				</div>
+
+				
+		
+			
+				<div class="col_w900 col_w900_last">
+
+					<div class="col_allw280 frontpage_box">
+						<img src="images/icon1.png" alt="Image" />
+						<h2>Internet Marketing</h2>
+						<span class="tagline">Venenatis vel pulvinar in</span>
+						<p>
+							Eco Green is a <a rel="nofollow" href="http://www.tooplate.com">free
+								website template</a> for you. Credit goes to <a
+								href="http://www.photovaco.com/" target="_blank">Free Photos</a>
+							for photos used in this template.
+						</p>
+						<a class="more" href="#">More</a>
 					</div>
-					<a class="more" href="#">More</a>
+
+					<div class="col_allw280 frontpage_box">
+						<img src="images/icon2.png" alt="Image" />
+						<h2>Web Design Tips</h2>
+						<span class="tagline">Morbi tincidunt lacinia mauris</span>
+						<p>
+							Ut lorem sapien, sodales ut sollicitudin ut, fermentum euismod
+							dolor. Aenean sed felis non sapien consectetur adipiscing eget
+							vitae eros. Validate <a
+								href="http://validator.w3.org/check?uri=referer" rel="nofollow"><strong>XHTML</strong></a>
+							and <a href="http://jigsaw.w3.org/css-validator/check/referer"
+								rel="nofollow"><strong>CSS</strong></a>.
+						</p>
+						<a class="more" href="#">More</a>
+					</div>
+
+					<div class="col_allw280 frontpage_box col_last">
+						<img src="images/icon3.png" alt="Image" />
+						<h2>Free Templates</h2>
+						<span class="tagline">Aenean feugiat fermentum </span>
+						<p>Sed nisi quam, egestas ac bibendum eu, dictum id enim.
+							Pellentesque et magna neque accumsan nisi. Viverra sed cursus
+							sed. In cursus vulputate diam, et dapibus ligula porta id.</p>
+						<a class="more" href="#">More</a>
+					</div>
+
+					<div class="cleaner"></div>
+
 				</div>
-				
-				<div class="col_w420 lp_box float_r">
-					<h2>Our Latest Projects</h2>
-					<ul class="lp_frontpage">
-						<li><a href="#"><img width="200" height="100" src="images/tooplate_image_01.jpg" alt="Image 01" /></a></li>
-						<li><a href="#"><img width="200" height="100" src="images/tooplate_image_02.jpg" alt="Image 02" /></a></li>
-						<li><a href="#"><img width="200" height="100" src="images/tooplate_image_03.jpg" alt="Image 03" /></a></li>
-						<li><a href="#"><img width="200" height="100" src="images/tooplate_image_04.jpg" alt="Image 04" /></a></li>
-					</ul>    
-					<a class="more" href="#">More</a>
+				<div class="col_w900 col_w900_last">
+
+					<div class="col_allw280 frontpage_box">
+						<img src="images/icon1.png" alt="Image" />
+						<h2>Internet Marketing</h2>
+						<span class="tagline">Venenatis vel pulvinar in</span>
+						<p>
+							Eco Green is a <a rel="nofollow" href="http://www.tooplate.com">free
+								website template</a> for you. Credit goes to <a
+								href="http://www.photovaco.com/" target="_blank">Free Photos</a>
+							for photos used in this template.
+						</p>
+						<a class="more" href="#">More</a>
+					</div>
+
+					<div class="col_allw280 frontpage_box">
+						<img src="images/icon2.png" alt="Image" />
+						<h2>Web Design Tips</h2>
+						<span class="tagline">Morbi tincidunt lacinia mauris</span>
+						<p>
+							Ut lorem sapien, sodales ut sollicitudin ut, fermentum euismod
+							dolor. Aenean sed felis non sapien consectetur adipiscing eget
+							vitae eros. Validate <a
+								href="http://validator.w3.org/check?uri=referer" rel="nofollow"><strong>XHTML</strong></a>
+							and <a href="http://jigsaw.w3.org/css-validator/check/referer"
+								rel="nofollow"><strong>CSS</strong></a>.
+						</p>
+						<a class="more" href="#">More</a>
+					</div>
+
+					<div class="col_allw280 frontpage_box col_last">
+						<img src="images/icon3.png" alt="Image" />
+						<h2>Free Templates</h2>
+						<span class="tagline">Aenean feugiat fermentum </span>
+						<p>Sed nisi quam, egestas ac bibendum eu, dictum id enim.
+							Pellentesque et magna neque accumsan nisi. Viverra sed cursus
+							sed. In cursus vulputate diam, et dapibus ligula porta id.</p>
+						<a class="more" href="#">More</a>
+					</div>
+
+					<div class="cleaner"></div>
+
 				</div>
-				
+
 				<div class="cleaner"></div>
-			
-			</div>
-		
-			<div class="col_w900 col_w900_last">
-			    
-				<div class="col_allw280 frontpage_box">
-					<img src="images/icon1.png" alt="Image" />
-					<h2>Internet Marketing</h2>
-					<span class="tagline">Venenatis vel pulvinar in</span>
-					<p>Eco Green is a <a rel="nofollow" href="http://www.tooplate.com">free website template</a> for you. Credit goes to <a href="http://www.photovaco.com/" target="_blank">Free Photos</a> for photos used in this template.</p>
-					<a class="more" href="#">More</a>
+				<div id="ser_DIV_1">
+					 
+								<div id="ser_DIV_6">
+									<div id="ser_DIV_7"></div>
+									<div id="ser_DIV_8">
+										<h2 id="ser_H2_9">Get Started With Solar Lighting
+											International, Inc.</h2>
+									</div>
+									<div id="ser_DIV_10">Our engineers will get a custom
+										<br />quote to you today.</div>
+								</div>
+								<div id="ser_DIV_11">
+									<a href="/contact" id="ser_A_12"><span id="ser_SPAN_13">Get
+											A Quote</span></a>
+								</div>
+							 
 				</div>
-				
-				<div class="col_allw280 frontpage_box">
-					<img src="images/icon2.png" alt="Image" />
-					<h2>Web Design Tips</h2>
-					<span class="tagline">Morbi tincidunt lacinia mauris</span>
-					<p>Ut lorem sapien, sodales ut sollicitudin ut, fermentum euismod dolor. Aenean sed felis non sapien consectetur adipiscing eget vitae eros. Validate <a href="http://validator.w3.org/check?uri=referer" rel="nofollow"><strong>XHTML</strong></a> and <a href="http://jigsaw.w3.org/css-validator/check/referer" rel="nofollow"><strong>CSS</strong></a>.</p>
-					<a class="more" href="#">More</a>
-				</div>
-				
-				<div class="col_allw280 frontpage_box col_last">
-					<img src="images/icon3.png" alt="Image" />            
-				  <h2>Free  Templates</h2>
-					<span class="tagline">Aenean feugiat fermentum </span>
-				  <p>Sed nisi quam, egestas ac bibendum eu, dictum id enim. Pellentesque et magna neque accumsan nisi. Viverra sed cursus sed. In cursus vulputate diam, et dapibus ligula porta id.</p>
-					<a class="more" href="#">More</a>
-				</div>
-				
-				<div class="cleaner"></div>
-			
+
 			</div>
 			
-		  <div class="cleaner"></div>
-		</div> <!-- end of main -->
-		<div id="tm_bottom"></div>
-		
-		<div id="tooplate_footer">
 			
-			Copyright © 2048 <a href="#">Company Name</a>
-			
-		</div> <!-- end of footer -->
-			
-	</div> <!-- end of wrapper -->
-	<div class="cleaner"></div>
-</div> <!-- end of body wrapper -->
-<!--   Free Website Template by t o o p l a t e . c o m   -->
+			<!-- end of main -->
+			<div id="tm_bottom"></div>
+
+			<div id="tooplate_footer">
+
+				Copyright © 2048 <a href="#">Company Name</a>
+
+			</div>
+			<!-- end of footer -->
+
+		</div>
+		<!-- end of wrapper -->
+		<div class="cleaner"></div>
+	</div>
+	<!-- end of body wrapper -->
+	<!--   Free Website Template by t o o p l a t e . c o m   -->
 </body>
 </html>
