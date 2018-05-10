@@ -694,6 +694,7 @@
     font: normal normal 400 normal 15px / 23px "Open Sans", Helvetica, Arial, Verdana, sans-serif;
     outline: rgb(31, 54, 92) none 0px;
     overflow: hidden;
+    margin:15px
 }/*#services_DIV_4*/
 
 #services_SPAN_5 {
@@ -715,7 +716,7 @@
     border-bottom: 5px solid rgb(255, 181, 54);
     border-left: 0px solid rgb(255, 181, 54);
     font: normal normal 400 normal 15px / 23px "Open Sans", Helvetica, Arial, Verdana, sans-serif;
-    margin: 0px 381px;
+    margin: 0px 320px;
     outline: rgb(31, 54, 92) none 0px;
 }/*#services_SPAN_5*/
 
@@ -723,7 +724,7 @@
     bottom: 0px;
     box-sizing: border-box;
     color: rgb(31, 54, 92);
-    height: 459px;
+    height: 345px;
     left: 0px;
     position: relative;
     right: 0px;
@@ -738,7 +739,7 @@
     border: 0px none rgb(31, 54, 92);
     font: normal normal 400 normal 15px / 23px "Open Sans", Helvetica, Arial, Verdana, sans-serif;
     outline: rgb(31, 54, 92) none 0px;
-    padding: 60px 0px 70px;
+    padding: 18px 0px 97px;
     background: #2d610f;
 }/*#ser_DIV_1*/
 
