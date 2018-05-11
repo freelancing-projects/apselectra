@@ -22,6 +22,29 @@ function switchTab(type){
 	}
 }
 
+var type = ["flag","briefcase","user","gears","comments"];
+var count = 0;
+var flag = false;
+function runCircle(){
+	
+	if(count == 0 && flag){
+		reason_onmouseout(type[4]);
+	}
+	if(count != 0){
+		
+		reason_onmouseout(type[count-1]);
+	}
+	reason_onmousehover(type[count]);
+	count ++;
+	flag = true;
+	
+	if(count == 5){
+		count=0;
+		flag = true;
+	}
+	
+}
+
 function reason_onmousehover(no){
 	if(no == 'flag'){
 		$("#wcu_DIV_56").css("background" , "#8ec36c");
