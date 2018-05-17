@@ -114,3 +114,34 @@ function reason_onmouseout(no){
 	}
 	
 }
+
+function sendEmail(){
+	
+	var ContactInfo = new Object();
+	ContactInfo.name ="arpit";
+	ContactInfo.email = "arpit-k@HCL.COM";
+	ContactInfo.subject = "hello";
+	ContactInfo.message = "Hi mass";
+	
+	$.ajax({
+		type : "POST",
+		contentType : "application/json",
+		url : "/sendEmail",
+		data : JSON.stringify(ContactInfo),
+		dataType : 'json',
+		timeout : 100000,
+		success : function(data) {
+			console.log("SUCCESS: ", data);
+			
+		},
+		error : function(e) {
+			console.log("ERROR: ", e);
+			
+		},
+		done : function(e) {
+			console.log("DONE");
+			
+		}
+	});
+	
+}
