@@ -175,7 +175,8 @@ a.more:hover {
 
 #tooplate_body_wrapper {
 	width: 100%;
-	background: url(../images/tooplate_body_bottom.png) bottom repeat-x;
+	/* background: url(../images/tooplate_body_bottom.png) bottom repeat-x; */
+	background : #1d1e38;
 	zoom:120%;
 }
 
@@ -188,7 +189,8 @@ a.more:hover {
 #tooplate_header {
 	width: 900px;
 	height: 60px;
-	padding: 30px 34px;
+	padding: 11px;
+	margin:0 0 17px;
 }
 
 #site_title {
@@ -741,3 +743,140 @@ span.tm_top {
     height: 370px;
     float: left;
 }
+
+
+#nav_UL_1 {
+    color: rgb(83, 83, 83);
+    float: left;
+    height: 24px;
+    text-decoration: none solid rgb(83, 83, 83);
+    text-size-adjust: 100%;
+    width: auto;
+    column-rule-color: rgb(83, 83, 83);
+    perspective-origin: 145.703px 12px;
+    transform-origin: 145.703px 12px;
+    caret-color: rgb(83, 83, 83);
+    background: rgb(77, 147, 23) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(83, 83, 83);
+    font: normal normal 400 normal 13px / 19px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    list-style: none outside none;
+    
+    outline: rgb(83, 83, 83) none 0px;
+    padding: 0px 10px;
+}/*#nav_UL_1*/
+
+#nav_UL_1:after {
+    clear: both;
+    color: rgb(83, 83, 83);
+ 
+    display: block;
+    height: 0px;
+    text-decoration: none solid rgb(83, 83, 83);
+    text-size-adjust: 100%;
+    visibility: hidden;
+    width: 0px;
+    column-rule-color: rgb(83, 83, 83);
+    perspective-origin: 0px 0px;
+    transform-origin: 0px 0px;
+    caret-color: rgb(83, 83, 83);
+    border: 0px none rgb(83, 83, 83);
+    font: normal normal 400 normal 13px / 19px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    list-style: none outside none;
+    outline: rgb(83, 83, 83) none 0px;
+    overflow: hidden;
+}/*#nav_UL_1:after*/
+
+#nav_UL_1:before {
+    color: rgb(83, 83, 83);
+ 
+    display: block;
+    height: 0px;
+    text-decoration: none solid rgb(83, 83, 83);
+    text-size-adjust: 100%;
+    visibility: hidden;
+    width: 0px;
+    column-rule-color: rgb(83, 83, 83);
+    perspective-origin: 0px 0px;
+    transform-origin: 0px 0px;
+    caret-color: rgb(83, 83, 83);
+    border: 0px none rgb(83, 83, 83);
+    font: normal normal 400 normal 13px / 19px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    list-style: none outside none;
+    outline: rgb(83, 83, 83) none 0px;
+    overflow: hidden;
+}/*#nav_UL_1:before*/
+
+#nav_LI_2 {
+    color: rgb(238, 238, 238);
+    float: left;
+    height: 24px;
+    text-decoration: none solid rgb(238, 238, 238);
+    text-size-adjust: 100%;
+   
+    column-rule-color: rgb(238, 238, 238);
+    perspective-origin: 19.9219px 12px;
+    transform-origin: 19.9219px 12px;
+    caret-color: rgb(238, 238, 238);
+    border: 0px none rgb(238, 238, 238);
+    font: normal normal 700 normal 13px / 24.7px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    list-style: none outside none;
+    outline: rgb(238, 238, 238) none 0px;
+}/*#nav_LI_2*/
+
+#nav_A_3 {
+    color: rgb(255, 255, 255);
+    text-align: left;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-size-adjust: 100%;
+    column-rule-color: rgb(255, 255, 255);
+    perspective-origin: 0px 0px;
+    transform-origin: 0px 0px;
+    caret-color: rgb(255, 255, 255);
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal 700 normal 13px / 24.7px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    list-style: none outside none;
+    outline: rgb(255, 255, 255) none 0px;
+}/*#nav_A_3*/
+
+#nav_LI_4 {
+    background-position: 0% 50%;
+    color: rgb(238, 238, 238);
+    float: left;
+    height: 24px;
+    text-decoration: none solid rgb(238, 238, 238);
+    text-size-adjust: 100%;
+  
+    column-rule-color: rgb(238, 238, 238);
+    perspective-origin: 39.75px 12px;
+    transform-origin: 39.75px 12px;
+    caret-color: rgb(238, 238, 238);
+    background: rgba(0, 0, 0, 0) url("http://arihantledlights.com/images/breadcrumbs-arr.png") no-repeat scroll 0% 50% / auto padding-box border-box;
+    border: 0px none rgb(238, 238, 238);
+    font: normal normal 700 normal 13px / 24.7px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    list-style: none outside none;
+    margin: 0px 0px 0px 10px;
+    outline: rgb(238, 238, 238) none 0px;
+    padding: 0px 0px 0px 10px;
+}/*#nav_LI_4*/
+
+#nav_LI_5 {
+    background-position: 0% 50%;
+    color: rgb(238, 238, 238);
+    float: left;
+    height: 24px;
+    text-decoration: none solid rgb(238, 238, 238);
+    text-size-adjust: 100%;
+   
+    column-rule-color: rgb(238, 238, 238);
+    perspective-origin: 66.0312px 12px;
+    transform-origin: 66.0312px 12px;
+    caret-color: rgb(238, 238, 238);
+    background: rgba(0, 0, 0, 0) url("http://arihantledlights.com/images/breadcrumbs-arr.png") no-repeat scroll 0% 50% / auto padding-box border-box;
+    border: 0px none rgb(238, 238, 238);
+    font: normal normal 700 normal 13px / 24.7px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    list-style: none outside none;
+    margin: 0px 0px 0px 10px;
+    outline: rgb(238, 238, 238) none 0px;
+    padding: 0px 0px 0px 10px;
+}/*#nav_LI_5*/
+
