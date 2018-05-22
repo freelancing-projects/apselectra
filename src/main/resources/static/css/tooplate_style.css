@@ -175,8 +175,8 @@ a.more:hover {
 
 #tooplate_body_wrapper {
 	width: 100%;
-	/* background: url(../images/tooplate_body_bottom.png) bottom repeat-x; */
-	background : #1d1e38;
+	background: url(../images/tooplate_body_bottom.png) bottom repeat-x; 
+	/* background : #1d1e38; */
 	zoom:120%;
 }
 
@@ -224,7 +224,8 @@ a.more:hover {
 /* menu */
 #tooplate_menu {
 	clear: both;
-	width: 900px;
+	/* width: 900px; */
+	width : auto;
 	height: 50px;
 	padding: 0 34px;
 	background: url(../images/tooplate_menu.png) no-repeat
@@ -302,7 +303,8 @@ a:hover {
 	clear: both;
 	width: 900px;
 	height: 202px;
-	padding: 24px 34px;
+	/* padding: 24px 34px; */
+	padding: 0px 0px;
 	background: url(../images/tooplate_middle.png) no-repeat
 }
 
@@ -356,7 +358,7 @@ a:hover {
 	width: 900px;
 	height: 400px;
 	overflow: hidden;
-	border: 1px solid #fff;
+/* 	border: 1px solid #fff; */
 }
 
 #tooplate_middle_subpage {
